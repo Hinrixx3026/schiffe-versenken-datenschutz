@@ -1,6 +1,6 @@
 # Datenschutzerklärung für die Android-App „Schiffe Versenken“
 
-**Stand:** 19.05.2026  
+**Stand:** 25.05.2026  
 **App:** Schiffe Versenken  
 **Paketname:** de.hinrixx.schiffeversenken
 
@@ -47,16 +47,27 @@ Datenschutzbestimmungen von Google: https://policies.google.com/privacy
 
 In internen Testversionen der App ist ein Feedback- und Fehlerberichtssystem über den Dienst „Shake“ integriert. Dieses System dient dazu, Fehler schneller zu erkennen, nachzuvollziehen und die App zu verbessern.
 
-Ein Fehlerbericht kann freiwillig ausgelöst werden, zum Beispiel durch Schütteln des Geräts oder über die Feedback-Funktion in der App. Ohne eine solche Aktion des Testers soll kein manueller Feedback-Bericht abgeschickt werden.
+Ein Fehlerbericht kann freiwillig ausgelöst werden, zum Beispiel durch Schütteln des Geräts oder über eine Feedback-Funktion in der App. Durch das Auslösen der Shake-Funktion wird jedoch kein Bericht automatisch gesendet. Es wird lediglich ein Feedback- oder Fehlerbericht vorbereitet.
 
-Bei der Erstellung eines Fehlerberichts können folgende Daten verarbeitet und an Shake übermittelt werden:
+Ein Bericht wird erst übermittelt, wenn der Nutzer diesen aktiv über den Senden-Button abschickt.
+
+Bei der Erstellung und Übermittlung eines Fehlerberichts können insbesondere folgende Daten verarbeitet und an Shake übermittelt werden:
 
 - vom Nutzer eingegebener Text bzw. Fehlerbeschreibung,
-- Screenshot, sofern im Fehlerbericht enthalten,
-- Geräteinformationen, zum Beispiel Modell, Hersteller und Android-Version,
-- App-Version und technische Diagnosedaten,
-- technische Logs,
+- Screenshots aus der App, sofern diese dem Fehlerbericht hinzugefügt werden,
+- App-Version und verwendete App-Aktivität,
+- Gerätemodell, Hersteller, Android-Version und Systemsprache,
+- Bildschirmgröße, Pixeldichte und Ausrichtung,
+- Akkustand, Ladezustand und Speicherinformationen,
+- Netzwerkstatus, zum Beispiel ob WLAN aktiv ist,
+- für die App relevante Berechtigungsinformationen,
 - Zeitpunkt des Fehlers bzw. der Meldung.
+
+Die Screenshots können sichtbare Inhalte der App zeigen, zum Beispiel Spielstände, Spielernamen, Einstellungen oder Fehlermeldungen. Nutzer sollten daher vor dem Absenden prüfen, ob sie diese Informationen mitschicken möchten.
+
+Die App fordert keine GPS-, Standort- oder Hintergrund-Standortberechtigung an. Über Shake werden keine Standortdaten oder Aufenthaltsortdaten für Fehlerberichte erfasst.
+
+Die automatische Black-Box-/Umgebungsaufzeichnung von Shake ist deaktiviert. Dadurch werden keine zusätzlichen Verlaufs- oder Umgebungsdaten der letzten Sekunden vor dem Bericht mitgesendet.
 
 Diese Daten werden verwendet, um Fehlerberichte auszuwerten, Fehler zu beheben und die Qualität der App zu verbessern. Der Shake API-Schlüssel wird nicht öffentlich angezeigt und nicht in App-Logs ausgegeben.
 
@@ -69,7 +80,9 @@ Für Fehlerberichte und Feedback in internen Testversionen wird der Dienst Shake
 Anbieter: Shake Ltd. / Shakebugs  
 Datenschutzerklärung von Shake: https://www.shakebugs.com/privacy/
 
-Shake kann im Rahmen der Fehlerberichterstattung technische Daten, App-Daten, Geräteinformationen, Logs, Screenshots und vom Nutzer eingegebene Inhalte verarbeiten, soweit diese für den jeweiligen Fehlerbericht erforderlich sind.
+Shake kann im Rahmen der Fehlerberichterstattung technische Daten, App-Daten, Geräteinformationen, Screenshots und vom Nutzer eingegebene Inhalte verarbeiten, soweit diese für den jeweiligen aktiv abgesendeten Fehlerbericht erforderlich sind.
+
+Die App übermittelt über Shake keine Standortdaten oder Aufenthaltsortdaten. Die automatische Black-Box-/Umgebungsaufzeichnung von Shake ist deaktiviert.
 
 ## 7. Zwecke der Verarbeitung
 
@@ -101,7 +114,11 @@ Fehlerberichte und Feedbackdaten werden nur so lange gespeichert, wie sie für A
 
 ## 11. Berechtigungen der App
 
-Die App kann je nach Funktion und Android-Version bestimmte Berechtigungen benötigen, zum Beispiel für lokale Verbindungen bzw. Nearby-Funktionen. Berechtigungen werden nur für die jeweiligen App-Funktionen verwendet.
+Die App kann je nach Funktion und Android-Version bestimmte Berechtigungen benötigen, zum Beispiel für lokale Verbindungen bzw. Nearby-Funktionen, Benachrichtigungen, Vibration, Ton oder den Zugriff auf vom Nutzer ausgewählte Dateien für Sicherungen.
+
+Berechtigungen werden nur für die jeweiligen App-Funktionen verwendet.
+
+Die App fordert keine GPS-, Standort- oder Hintergrund-Standortberechtigung an.
 
 ## 12. Rechte der Nutzer
 
