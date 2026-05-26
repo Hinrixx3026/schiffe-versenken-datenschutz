@@ -1,6 +1,6 @@
 # Datenschutzerklärung für die Android-App „Schiffe Versenken“
 
-**Stand:** 25.05.2026  
+**Stand:** 26.05.2026  
 **App:** Schiffe Versenken  
 **Paketname:** de.hinrixx.schiffeversenken
 
@@ -17,6 +17,8 @@ E-Mail: Niklas-Hinrichs@t-online.de
 
 Die App „Schiffe Versenken“ kann grundsätzlich ohne Benutzerkonto genutzt werden. Es gibt keinen Login, keine Werbung und keine In-App-Käufe. Es werden keine personenbezogenen Benutzerprofile zu Werbezwecken erstellt und keine Daten zu Werbezwecken verkauft.
 
+Die App fordert keine GPS-, Standort- oder Hintergrund-Standortberechtigung an.
+
 ## 3. Lokal gespeicherte Daten
 
 Die App kann Daten lokal auf dem Gerät speichern, damit die App-Funktionen zuverlässig genutzt werden können. Dazu können insbesondere gehören:
@@ -25,11 +27,29 @@ Die App kann Daten lokal auf dem Gerät speichern, damit die App-Funktionen zuve
 - Spielstände,
 - Statistiken,
 - Erfolge/Achievements,
+- Fortschritt, Rang und Dienstpunkte,
+- lokal gespeicherte Profilinformationen, zum Beispiel ein Spielername,
 - sonstige lokale Spiel- und Komfortfunktionen.
 
-Diese Daten werden grundsätzlich lokal auf dem Gerät gespeichert und nicht automatisch an Niklas Hinrichs übertragen. Nutzer können diese Daten löschen, indem sie die App-Daten über die Android-Systemeinstellungen löschen oder die App deinstallieren.
+Diese Daten werden grundsätzlich lokal auf dem Gerät gespeichert und nicht automatisch an Niklas Hinrichs übertragen. Nutzer können diese Daten über den Datenschutzbereich innerhalb der App löschen, sofern diese Funktion in der installierten Version verfügbar ist. Alternativ können Nutzer die App-Daten über die Android-Systemeinstellungen löschen oder die App deinstallieren.
 
-## 4. Mehrspieler-Funktion über Google Nearby / lokale Verbindung
+Exportierte Sicherungen und externe Backup-Dateien werden beim Löschen lokaler App-Daten nicht automatisch gelöscht.
+
+## 4. Manuelle und automatische Sicherungen
+
+Die App kann Funktionen zum manuellen Exportieren und Importieren von Sicherungen anbieten. Eine Sicherung kann lokale App-Daten enthalten, zum Beispiel Einstellungen, Spielstände, Statistiken, Erfolge, Fortschritt, Rang/Dienstpunkte und Profilinformationen.
+
+Zusätzlich kann die App eine automatische Sicherung anbieten. Diese Funktion ist freiwillig und standardmäßig deaktiviert. Sie wird nur genutzt, wenn sie aktiv eingeschaltet und ein Speicherort bzw. eine Sicherungsdatei durch den Nutzer ausgewählt wurde.
+
+Die automatische Sicherung speichert Sicherungsdateien ausschließlich an dem vom Nutzer ausgewählten Speicherort. Die App überträgt diese Sicherungen nicht automatisch an Niklas Hinrichs, an einen eigenen Server oder an einen sonstigen zentralen Server des Entwicklers.
+
+Damit nicht bei jeder kleinen Änderung sofort eine neue Sicherung geschrieben wird, kann die App schnelle Änderungen zusammenfassen. Beispielsweise können mehrere kurz nacheinander vorgenommene Einstellungsänderungen gesammelt und zeitverzögert in einer automatischen Sicherung gespeichert werden.
+
+Automatische Sicherungen können insbesondere nach wichtigen Ereignissen ausgelöst werden, zum Beispiel nach einem abgeschlossenen Spiel, einer Beförderung, einer freigeschalteten Errungenschaft, relevanten Statistikänderungen oder wichtigen Einstellungsänderungen.
+
+Die automatische Sicherung kann jederzeit wieder deaktiviert werden. Beim Löschen lokaler App-Daten werden gespeicherte Einstellungen zur automatischen Sicherung, etwa Aktivierungsstatus, Ziel-URI oder Statusinformationen, zurückgesetzt. Bereits exportierte Sicherungsdateien außerhalb der App bleiben dabei unangetastet.
+
+## 5. Mehrspieler-Funktion über Google Nearby / lokale Verbindung
 
 Die App kann eine lokale Mehrspieler-Funktion verwenden. Dafür wird Google Nearby bzw. eine lokale Geräteverbindung über Google Play-Dienste genutzt. Im Rahmen dieser Funktion können für die Verbindung und Darstellung im Spiel Daten zwischen den beteiligten Geräten ausgetauscht werden, zum Beispiel:
 
@@ -37,13 +57,14 @@ Die App kann eine lokale Mehrspieler-Funktion verwenden. Dafür wird Google Near
 - Gerätename oder Gerätekennung, soweit für die Verbindung erforderlich,
 - Verbindungsstatus,
 - Spielzustand im Mehrspielermodus,
+- Schüsse, Treffer, Rundeninformationen und ähnliche spielbezogene Daten,
 - technische Informationen zur lokalen Verbindung.
 
 Diese Daten dienen dazu, eine lokale Spielverbindung zwischen den Spielern herzustellen und das gemeinsame Spiel zu ermöglichen. Die App betreibt hierfür keinen eigenen zentralen Spielserver. Die Verarbeitung durch Google Play-Dienste richtet sich zusätzlich nach den Datenschutzbestimmungen von Google.
 
 Datenschutzbestimmungen von Google: https://policies.google.com/privacy
 
-## 5. Fehlerberichte und Feedback in internen Testversionen
+## 6. Fehlerberichte und Feedback in internen Testversionen
 
 In internen Testversionen der App ist ein Feedback- und Fehlerberichtssystem über den Dienst „Shake“ integriert. Dieses System dient dazu, Fehler schneller zu erkennen, nachzuvollziehen und die App zu verbessern.
 
@@ -73,7 +94,7 @@ Diese Daten werden verwendet, um Fehlerberichte auszuwerten, Fehler zu beheben u
 
 Derzeit ist Shake nur für interne Testversionen vorgesehen. Sollte Shake zu einem späteren Zeitpunkt auch in einer öffentlichen Version der App aktiviert werden, wird diese Datenschutzerklärung entsprechend aktualisiert.
 
-## 6. Dienstleister Shake
+## 7. Dienstleister Shake
 
 Für Fehlerberichte und Feedback in internen Testversionen wird der Dienst Shake verwendet.
 
@@ -84,35 +105,40 @@ Shake kann im Rahmen der Fehlerberichterstattung technische Daten, App-Daten, Ge
 
 Die App übermittelt über Shake keine Standortdaten oder Aufenthaltsortdaten. Die automatische Black-Box-/Umgebungsaufzeichnung von Shake ist deaktiviert.
 
-## 7. Zwecke der Verarbeitung
+## 8. Zwecke der Verarbeitung
 
 Die Datenverarbeitung erfolgt insbesondere zu folgenden Zwecken:
 
 - Bereitstellung der App-Funktionen,
-- Speicherung lokaler Einstellungen, Spielstände, Statistiken und Erfolge,
+- Speicherung lokaler Einstellungen, Spielstände, Statistiken, Erfolge, Fortschritt und Profilinformationen,
+- Ermöglichung manueller und freiwilliger automatischer Sicherungen,
 - Ermöglichung der lokalen Mehrspieler-Funktion,
 - Annahme und Bearbeitung von Fehlerberichten in internen Testversionen,
 - Verbesserung von Stabilität, Sicherheit und Qualität der App.
 
-## 8. Rechtsgrundlagen
+## 9. Rechtsgrundlagen
 
 Soweit personenbezogene Daten verarbeitet werden, erfolgt dies auf Grundlage der Datenschutz-Grundverordnung (DSGVO), insbesondere:
 
 - Art. 6 Abs. 1 lit. b DSGVO, soweit die Verarbeitung zur Bereitstellung der App-Funktionen erforderlich ist,
 - Art. 6 Abs. 1 lit. f DSGVO, soweit ein berechtigtes Interesse an der Stabilität, Sicherheit und Verbesserung der App besteht,
-- Art. 6 Abs. 1 lit. a DSGVO, soweit Nutzer freiwillig Angaben in einem Feedback- oder Fehlerbericht machen.
+- Art. 6 Abs. 1 lit. a DSGVO, soweit Nutzer freiwillig Angaben in einem Feedback- oder Fehlerbericht machen oder freiwillige Zusatzfunktionen wie eine automatische Sicherung aktivieren.
 
-## 9. Weitergabe von Daten
+## 10. Weitergabe von Daten
 
-Daten werden nicht zu Werbezwecken verkauft. Eine Weitergabe erfolgt nur, soweit dies zur Bereitstellung der App-Funktionen, zur lokalen Mehrspieler-Verbindung oder zur Bearbeitung von Fehlerberichten über Shake erforderlich ist oder gesetzliche Pflichten bestehen.
+Daten werden nicht zu Werbezwecken verkauft. Eine Weitergabe erfolgt nur, soweit dies zur Bereitstellung der App-Funktionen, zur lokalen Mehrspieler-Verbindung, zur Bearbeitung von Fehlerberichten über Shake oder aufgrund gesetzlicher Pflichten erforderlich ist.
 
-## 10. Speicherdauer
+Manuelle oder automatische Sicherungen werden nicht automatisch an Niklas Hinrichs oder an einen eigenen Server übertragen. Sie werden an dem Speicherort gespeichert, der durch den Nutzer ausgewählt wurde.
+
+## 11. Speicherdauer
 
 Lokal gespeicherte App-Daten verbleiben grundsätzlich auf dem Gerät, bis sie durch den Nutzer gelöscht werden oder die App deinstalliert wird.
 
+Manuell exportierte oder automatisch erstellte Sicherungen verbleiben grundsätzlich an dem Speicherort, der durch den Nutzer ausgewählt wurde. Die Löschung solcher Sicherungsdateien erfolgt durch den Nutzer am jeweiligen Speicherort.
+
 Fehlerberichte und Feedbackdaten werden nur so lange gespeichert, wie sie für Analyse, Fehlerbehebung, Nachvollziehbarkeit und Qualitätssicherung erforderlich sind. Danach werden sie gelöscht oder, soweit möglich, anonymisiert.
 
-## 11. Berechtigungen der App
+## 12. Berechtigungen der App
 
 Die App kann je nach Funktion und Android-Version bestimmte Berechtigungen benötigen, zum Beispiel für lokale Verbindungen bzw. Nearby-Funktionen, Benachrichtigungen, Vibration, Ton oder den Zugriff auf vom Nutzer ausgewählte Dateien für Sicherungen.
 
@@ -120,7 +146,7 @@ Berechtigungen werden nur für die jeweiligen App-Funktionen verwendet.
 
 Die App fordert keine GPS-, Standort- oder Hintergrund-Standortberechtigung an.
 
-## 12. Rechte der Nutzer
+## 13. Rechte der Nutzer
 
 Nutzer haben, soweit die gesetzlichen Voraussetzungen vorliegen, folgende Rechte:
 
@@ -135,10 +161,10 @@ Nutzer haben, soweit die gesetzlichen Voraussetzungen vorliegen, folgende Rechte
 
 Anfragen können an folgende E-Mail-Adresse gerichtet werden: Niklas-Hinrichs@t-online.de
 
-## 13. Änderungen dieser Datenschutzerklärung
+## 14. Änderungen dieser Datenschutzerklärung
 
 Diese Datenschutzerklärung kann angepasst werden, wenn sich Funktionen der App, eingesetzte Dienste oder rechtliche Anforderungen ändern. Es gilt die jeweils aktuelle Fassung.
 
-## 14. Hinweis
+## 15. Hinweis
 
 Diese Datenschutzerklärung wurde auf Grundlage der aktuell beschriebenen App-Funktionen erstellt. Sie ersetzt keine individuelle Rechtsberatung. Vor einer öffentlichen Veröffentlichung oder bei späteren Funktionsänderungen sollte geprüft werden, ob weitere Angaben erforderlich sind.
